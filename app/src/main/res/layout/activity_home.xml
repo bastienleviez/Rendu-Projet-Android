@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_header"/>
+
+
+    <Button
+        android:id="@+id/buttonStudentsWS"
+        android:layout_width="wrap_content"
+        android:layout_height="126dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="188dp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:fontFamily="cursive"
+        android:text="Espace 1 (Etudiants)"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/buttonProductsWs"
+        android:layout_width="wrap_content"
+        android:layout_height="126dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:fontFamily="cursive"
+        android:text="Espace 2 (Produits)"
+        android:textSize="23dp" />
+</LinearLayout>
