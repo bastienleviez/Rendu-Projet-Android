@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfilActivity">
-
+    tools:context=".ProductActivity">
     <include
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         layout="@layout/layout_header"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
 
     <ImageView
         android:id="@+id/image"
@@ -18,15 +28,14 @@
         android:layout_marginTop="60dp"
         android:adjustViewBounds="true"/>
 
-
     <TextView
         android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
         android:textColor="@color/black"
-        android:layout_marginTop="400dp"
         android:textSize="14sp"
         android:fontFamily="cursive"/>
-
-</RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
