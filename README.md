@@ -1,3 +1,2 @@
-# Epsi 
-B3 DEV G1 
-Android 2020-2021
+# B3 EPSI G1 - POINTET Florian et Bastien leviez
+Voici notre rendu du projet de développement d'une application mobile
